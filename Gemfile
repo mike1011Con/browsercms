@@ -1,10 +1,13 @@
 source 'http://rubygems.org'
 
-ruby '2.1.0'
+ruby '2.3.8'
 
 # Load this project as a gem.
 gemspec
 gem "mysql2"
+
+##explicitly added rails
+gem 'rails', '~> 4.2.7'
 
 gem 'yard', :groups=>[:development, :test]
 gem 'bluecloth', :groups=>[:development, :test] # For YARD
@@ -45,3 +48,4 @@ group :test do
   gem 'ruby-prof'
   gem 'aruba'
 end
+

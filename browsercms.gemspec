@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.add_dependency("devise", ">= 4.8.0")
   s.add_dependency("sass-rails")
   s.add_dependency("bootstrap-sass", "~> 3.2.0.2")
-  s.add_dependency("compass-rails", "~> 1.1.3")
+  s.add_dependency("compass-rails", "~> 2.0.1")
   s.add_dependency("ancestry", "~> 2.0.0")
   s.add_dependency("underscore-rails", "~> 1.4")
   s.add_dependency("jquery-rails", "~> 3.1")
