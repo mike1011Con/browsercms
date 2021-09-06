@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
 
   s.executables = ["bcms", "browsercms"]
 
-  s.add_dependency("rails", "~> 4.2.7")
+  s.add_dependency("rails", "~> 4.2.11.1")
   s.add_dependency("devise", ">= 4.8.0")
   s.add_dependency("sass-rails")
   s.add_dependency("bootstrap-sass", ">= 3.2.0.2")
