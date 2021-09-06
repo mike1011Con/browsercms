@@ -11,7 +11,7 @@ PATH
       jquery-ui-rails (~> 4.1)
       panoramic
       paperclip (>= 4.1.0)
-      rails (~> 4.2.7)
+      rails (~> 4.2.11.1)
       sass-rails
       simple_form (>= 3.0.0.rc)
       term-ansicolor
@@ -278,7 +278,7 @@ GEM
     simple_form (4.0.0)
       actionpack (> 4)
       activemodel (> 4)
-    sprockets (2.11.0)
+    sprockets (2.12.5)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
@@ -342,7 +342,7 @@ DEPENDENCIES
   mysql2
   poltergeist
   quiet_assets
-  rails (~> 4.2.7)
+  rails (~> 4.2.11.1)
   rake
   ruby-prof
   sqlite3-ruby
