@@ -7,7 +7,7 @@ gemspec
 gem "mysql2"
 
 ##explicitly added rails
-gem 'rails', '~> 4.2.11.1'
+gem 'rails', '4.2.7'
 
 gem 'yard', :groups=>[:development, :test]
 gem 'bluecloth', :groups=>[:development, :test] # For YARD
